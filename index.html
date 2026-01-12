@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Map & Set Practice</title>
+</head>
+
+<body>
+
+    <h1>JavaScript Set & Map Practice</h1>
+
+    <section>
+        <h2>Set Operations (Unique Values Only)</h2>
+        <input type="text" id="setValue" placeholder="Enter value for Set">
+        <button onclick="addToSet()">Add to Set</button>
+        <button onclick="checkInSet()">Has Value?</button>
+        <button onclick="deleteFromSet()">Delete Value</button>
+        <button onclick="clearSet()">Clear Set</button>
+
+        <h3>Current Set Values:</h3>
+        <ul id="setList"></ul>
+    </section>
+
+    <hr>
+
+    <section>
+        <h2>Array.map() Practice</h2>
+        <p>This transforms the items from your <b>Set</b> above into a new Array.</p>
+
+        <button onclick="mapDouble()">Map: Double Numbers</button>
+        <button onclick="mapSquare()">Map: Square Numbers</button>
+        <button onclick="mapTitle()">Map: Add "Item: "</button>
+
+        <h3>Mapped Array Result:</h3>
+        <ul id="mapList"></ul>
+    </section>
+
+    <script src="app.js"></script>
+</body>
+
+</html>
